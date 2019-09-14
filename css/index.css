@@ -88,6 +88,21 @@ p {
     color: black;
 }
 
+.logo {
+	animation-name: lambda;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+}
+
+@keyframes lambda {
+	0% {background-color: white;}
+	25% {background-color: blue;}
+	50% {background-color: grey;}
+	75% {background-color: red;}
+	100% {background-color: white;}
+}
+
 .highway_lights {
     margin: 5% 0 3%;
 }
@@ -157,9 +172,15 @@ p {
     padding-right: 0;
 }
 
+/* @media screen and (max-width: 600px) {
+	.flex-container {
+		flex-direction: column;
+	}
+} */
+
 .flex-container {
     list-style: none;
-	padding: 0 1%;
+	padding: 0;
 	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
@@ -167,7 +188,7 @@ p {
 	flex-flow: row wrap;
 }
 
-.flex-item {
+.column {
     padding: 2% 5px;
 	width: 48%;
 	margin: 3% 0;
