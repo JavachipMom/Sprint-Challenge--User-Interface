@@ -71,6 +71,46 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    margin-top: 5%;
+}
+
+.header nav {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+	animation-name: lambda;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+}
+
+@keyframes lambda {
+	0% {background-color: white;}
+	25% {background-color: blue;}
+	50% {background-color: grey;}
+	75% {background-color: red;}
+	100% {background-color: white;}
+}
+
+.highway_lights {
+    margin: 5% 0 3%;
+}
+
+.cityscape {
+    margin: 5% 0 3%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +123,12 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-section {
+    border-bottom: thin dashed black;
+    /* border-bottom-width: thin; */
+    padding: 0 1.5% 2%;
 }
 
 .middle-content {
@@ -126,9 +172,54 @@ p {
     padding-right: 0;
 }
 
+/* @media screen and (max-width: 600px) {
+	.flex-container {
+		flex-direction: column;
+	}
+} */
+
+.flex-container {
+    list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.column {
+    padding: 2% 5px;
+	width: 48%;
+	margin: 3% 0;
+    line-height: 1.25;
+    border-bottom: thin dashed black;
+}
+
+section {
+    margin: 4% 0;
+    padding-left: 3%;
+}
+
+button {
+	width: 38%;
+	padding: 2%;
+	background-color: rgb(255,255,251);
+    border-radius: 10px;
+    border-width: 2px;
+	border-color: rgb(0,0,0);
+	font-size: 18px;
+    margin: 5% 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {background-color: #e7e7e7;}
+
 footer {
     width: 100%;
     background: black;
+    margin-bottom: 2%;
 }
 
 footer nav {
