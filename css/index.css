@@ -175,6 +175,11 @@ p {
     border-bottom: thin dashed black;
 }
 
+section {
+    margin: 4% 0;
+    padding-left: 3%;
+}
+
 button {
 	width: 38%;
 	padding: 2%;
@@ -189,6 +194,7 @@ button {
 footer {
     width: 100%;
     background: black;
+    margin-bottom: 2%;
 }
 
 footer nav {
