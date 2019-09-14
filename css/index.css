@@ -72,7 +72,7 @@ p {
 }
 
 .header {
-    margin: 5% 0;
+    margin-top: 5%;
 }
 
 .header nav {
@@ -89,7 +89,7 @@ p {
 }
 
 .highway_lights {
-    margin-bottom: 3%;
+    margin: 5% 0 3%;
 }
 
 .top-content {
