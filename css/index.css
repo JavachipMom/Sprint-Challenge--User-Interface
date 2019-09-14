@@ -80,6 +80,7 @@ p {
     width: 95%;
     justify-content: space-between;
     align-items: baseline;
+    font-size: 14px;
 }
 
 .header a {
