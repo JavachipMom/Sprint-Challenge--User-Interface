@@ -209,8 +209,12 @@ button {
     border-width: 2px;
 	border-color: rgb(0,0,0);
 	font-size: 18px;
-	margin: 5% 0;
+    margin: 5% 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
+
+button:hover {background-color: #e7e7e7;}
 
 footer {
     width: 100%;
