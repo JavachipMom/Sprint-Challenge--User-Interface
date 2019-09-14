@@ -92,6 +92,10 @@ p {
     margin: 5% 0 3%;
 }
 
+.cityscape {
+    margin: 5% 0 3%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,6 +108,12 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-section {
+    border-bottom: thin dashed black;
+    /* border-bottom-width: thin; */
+    padding: 0 1.5% 2%;
 }
 
 .middle-content {
@@ -145,6 +155,35 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.flex-container {
+    list-style: none;
+	padding: 0 1%;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.flex-item {
+    padding: 2% 5px;
+	width: 48%;
+	margin: 3% 0;
+    line-height: 1.25;
+    border-bottom: thin dashed black;
+}
+
+button {
+	width: 38%;
+	padding: 2%;
+	background-color: rgb(255,255,251);
+    border-radius: 10px;
+    border-width: 2px;
+	border-color: rgb(0,0,0);
+	font-size: 18px;
+	margin: 5% 0;
 }
 
 footer {
