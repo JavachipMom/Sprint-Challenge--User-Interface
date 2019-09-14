@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    margin: 5% 0;
+}
+
+.header nav {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.highway_lights {
+    margin-bottom: 3%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
